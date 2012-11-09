@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ribbon_menu_home" android:title="Principal" android:icon="@drawable/ic_launcher"></item>
+    <item android:id="@+id/ribbon_openspace_reglas" android:title="Reglas Open Space" android:icon="@drawable/openspace"></item>
+    <item android:id="@+id/ribbon_mapa" android:title="Mapa" android:icon="@drawable/location_map"></item>
+    <item android:id="@+id/ribbon_postit_3m" android:title="Post-it 3M" android:icon="@drawable/postit"></item>
+     
+</menu>

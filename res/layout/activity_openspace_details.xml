@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_space_details_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#eee" >
+
+        <TextView
+            android:id="@+id/tv_space_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="false"
+            android:padding="@dimen/padding_medium"
+            android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/tv_space_details_hour"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_space_details_title"
+            android:layout_centerHorizontal="false"
+            android:padding="@dimen/padding_medium"
+            android:text="16:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_space_details_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_space_details_title"
+        android:layout_centerHorizontal="false"
+        android:padding="15dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:text=" ullamcorper. "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
+
+</ScrollView>

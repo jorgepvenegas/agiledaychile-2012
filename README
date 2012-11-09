@@ -1,0 +1,38 @@
+AgileDay Chile 2012; Por que no están todos los que son
+=======================================================
+
+Esta aplicación ha sido creada para el evento AgileDay Chile del Lunes 26 de Noviembre del 2012.
+
+Permite ver el programa, información varia, y servirá de ayuda al momento de definir los temas a discutir en el OpenSpace
+
+Las postulaciones son en
+
+http://eventos.chileagil.cl/eventos/propuestas-agile-day-chile-2012/eventos/index
+
+
+
+Librerias
+=======================================================
+
+La aplicación utiliza las siguientes librerias
+
+- Google Calendar API (google-api-services-calendar-v3-rev16-1.8.0-beta): http://code.google.com/p/google-api-java-client/wiki/APIs#Calendar_API
+- ActionBarSherlock (JakeWharton-ActionBarSherlock-4.2.0-0-g90939dc) http://actionbarsherlock.com/
+- ViewPagerIndicator (JakeWharton-Android-ViewPagerIndicator-2.4.1-0-g8cd549f) http://viewpagerindicator.com/
+- RibbonMenu https://github.com/darvds/RibbonMenu
+
+
+Licencia
+=======================================================
+
+ Copyright (c) 2012 Marcelo Vega
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ 
+
